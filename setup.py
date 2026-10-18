@@ -22,7 +22,7 @@ with open("README.md", encoding="utf-8") as f:
     readme = f.read()
 
 setup(
-    name="TgCrypto-pyrofork",
+    name="tgcrypto-gmanka",
     version="1.2.8",
     description="Fast and Portable Cryptography Extension Library for Pyrofork",
     long_description=readme,
@@ -45,6 +45,7 @@ setup(
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.13",
         "Programming Language :: Python :: 3.14",
+        "Programming Language :: Python :: 3.15",
         "Programming Language :: Python :: Implementation",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
